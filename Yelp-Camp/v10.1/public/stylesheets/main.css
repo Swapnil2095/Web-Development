@@ -1,0 +1,12 @@
+
+img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 100%; /* Set a small width */
+}
+
+
+#delete-form {
+    display: inline;
+}
