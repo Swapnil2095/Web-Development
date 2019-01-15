@@ -1,0 +1,104 @@
+nav {
+    background-color: #042430;
+    color: #fff;
+}
+
+#logo {
+    width: 40%;
+    height: 40%;
+}
+
+.navbar-left a {
+    padding: 5px;
+}
+
+.separator {
+    color: #fff;
+}
+
+footer {
+    background-color: #042430;
+    font-family: 'Clear Sans';
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+}
+
+footer a {
+    padding: 10px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.category-image {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.category-image img {
+    width: 80%;
+    height: 80%;
+}
+
+.individual-category {}
+
+.category-name {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    color: #fff;
+    background-color: rgba(3, 26, 35, .7);
+    font-family: "Clear Sans Light";
+    letter-spacing: -.2px;
+}
+
+.product-category {
+    font-size: 20px;
+    color: #4A4A4A;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+@media screen and (min-width: 1080px) {
+    .individual-category {}
+}
+
+@media (min-width: 992px) {
+    .individual-category {}
+}
+
+@media (min-width: 768px) {
+    .individual-category {}
+}
